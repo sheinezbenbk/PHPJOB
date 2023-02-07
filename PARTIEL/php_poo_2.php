@@ -21,9 +21,9 @@ class Personne {
 
 //Attributs
 	private $numero1;
-	public $nom1;
-	public $prenom1;
-	public $daten1;
+	private $nom1;
+	private $prenom1;
+	private $daten1;
 	public $adr1;
 	public $ent1;
 

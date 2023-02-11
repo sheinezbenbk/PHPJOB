@@ -21,9 +21,9 @@ class Personne {
 
 //Attributs
 	private $numero1;
-	public $nom1;
-	public $prenom1;
-	public $daten1;
+	private $nom1;
+	private $prenom1;
+	private $daten1;
 	public $adr1;
 	public $ent1;
 
@@ -37,8 +37,17 @@ class Personne {
 		$this->ent = $ent;
 	}
 
-	public function __get($num) {
-		return $this->num;
+	public function getNumero() {
+		return $this->numero;
+	} 
+	public function getNom() {
+		return $this->nom;
+	} 
+	public function getPrenom() {
+		return $this->prenom;
+	} 
+	public function getDaten() {
+		return $this->daten;
 	} 
 
 	public function afficher() {

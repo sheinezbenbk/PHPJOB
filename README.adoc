@@ -1,8 +1,34 @@
-=  DOSSIER D'ANALYSE SUSHIS APP (1)
+=  DOSSIER D'ANALYSE SUSHIS APP
+
+[%header%footer,cols="2,2s,3",grid=rows,frame=topbot,width=100%,caption=Organisation]
+|===
+|Nom 
+|Belkacem Nassim
+|Ben Boubaker Sheinez
+|===
+
+== Diagramme des cas d’utilisation concernant l’application
+
+image::/
 
 
 == Maquette de l'application 
 image::/Maquette.png[]
-image::/Maquette (1).png[]
-image::/Maquette (2).png[]
 
+• L’utilisateur s’attend à voir, au minimum, le nom du plateau, son image, son
+prix et son nombre de pièces, son panier.
+• L’utilisateur aura la possibilité d’en voir le détail d’une boxe comme la
+composition et les saveurs.
+• L’utilisateur aura la possibilité de mettre une boxe de son panier. Une technique
+classique consiste à positionner deux boutons (- et +).
+
+image::/Maquette (3).png[]
+
+• Une page supplémentaire permettra de voir l’état de la commande courante afin
+de permettre à l’utilisateur de valider ou modifier son panier.
+
+image::/Maquette (1).png[]
+
+== La structure (JSON) du panier sauvegardé sur le client
+
+image::/

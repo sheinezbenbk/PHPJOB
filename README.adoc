@@ -9,7 +9,7 @@
 
 == Diagramme des cas d’utilisation concernant l’application
 
-image::/
+image::/diagram-cas.png[]
 
 
 == Maquette de l'application 
@@ -31,4 +31,4 @@ image::/Maquette (1).png[]
 
 == La structure (JSON) du panier sauvegardé sur le client
 
-image::/
+image::/diagram.png[]
